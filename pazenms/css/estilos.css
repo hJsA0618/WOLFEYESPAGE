@@ -1,0 +1,163 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-top: 50px; 
+    margin-left: 20%; 
+    margin-right: 20%; 
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .centered-img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .centered-img {
+    margin-bottom: 0;
+  }
+
+  .logo{ 
+    text-align: center;
+  }
+
+
+  .header-box {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+  }
+
+
+  .section {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 2px solid #333;
+    text-align: center;
+    margin-left: 30%;
+  }
+
+  #section1 {
+    margin-left: 15%; /* Ajustar el margen izquierdo para la sección 1 */
+}
+
+#section2 {
+    margin-left: 15%; /* Ajustar el margen izquierdo para la sección 2 */
+}
+
+#section3 {
+    margin-left: 15%; /* Ajustar el margen izquierdo para la sección 3 */
+}
+
+  .container {
+    position: relative;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 110px; 
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .sidebar ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #555;
+  }
+
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
+  .section {
+    display: none;
+  }
+
+  .section.active {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #333;
+  }
+
+  .return-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+
+#section3.active {
+  display: block;
+  margin: 0 auto; 
+  width: 50%; 
+}
+
+#section4 {
+  display: none;
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border: 2px solid #333;   
+  text-align: center;
+}
+
+#section4.active {
+  display: block;
+}
+
+#section2 img {
+  max-width: 100%; /* Ajusta el ancho máximo de las imágenes al contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+  margin: 0 auto 10px; /* Centra horizontalmente las imágenes y agrega un pequeño espacio en la parte inferior */
+}
+
+#iching-image {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+/* Estilos específicos para la imagen con el identificador "valeriano-image" */
+#valeriano-image {
+  width: 225px !important;
+  height: 225px !important;
+}
